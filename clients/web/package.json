@@ -1,0 +1,35 @@
+{
+    "name": "glimmer-cape",
+    "version": "1.0.0",
+    "description": "^_~",
+    "main": "./index.js",
+    "dependencies": {
+        "@babel/core": "^7.5.0",
+        "@babel/polyfill": "^7.4.4",
+        "@babel/preset-env": "^7.5.0",
+        "@babel/preset-react": "^7.0.0",
+        "babel-loader": "^8.0.6",
+        "css-loader": "^3.2.0",
+        "file-loader": "^4.2.0",
+        "less": "^3.10.3",
+        "less-loader": "^5.0.0",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "react-redux": "^7.1.1",
+        "react-router": "^5.0.1",
+        "react-router-dom": "^5.0.1",
+        "redux": "^4.0.4",
+        "style-loader": "^1.0.0",
+        "webpack": "^4.35.2",
+        "webpack-cli": "^3.3.5",
+        "webpack-dev-server": "^3.7.2"
+    },
+    "scripts": {
+        "start": "webpack-dev-server --watch --open --config webpack.dev.js",
+        "build": "webpack --config webpack.prod.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "asu",
+    "license": "ISC",
+    "devDependencies": {}
+}
